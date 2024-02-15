@@ -1,0 +1,15 @@
+# Geeks-For-Geeks
+
+class Solution {
+    public static long seriesSum(int n) {
+        // code here
+       int i;
+       long count=0;
+       for(i=1;i<=n;i++)
+       {
+           count=count+i;
+           
+       }
+       return count;
+    }
+}
